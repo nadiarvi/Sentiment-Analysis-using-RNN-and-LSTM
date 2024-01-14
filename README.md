@@ -48,6 +48,10 @@ To run the BERT model, execute the following code:
 from bert import set_hyperparameter_for_BERT, run_BERT
 
 args = set_hyperparameter_for_BERT()
+
+## Results
+
+The LSTM model achieved a validation accuracy of 81.84%, while the BERT model demonstrated a F1 score of 90.05% on sentiment analysis.
 run_BERT('distilbert-base-cased', args)
 ```
 
