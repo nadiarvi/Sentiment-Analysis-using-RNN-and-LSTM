@@ -56,14 +56,10 @@ Note: The BERT model uses the DistilBERT architecture with the `'distilbert-base
 ## Results
 <div style="display:flex;">
     <div style="width:100%; text-align:center;">
-        <img src="images/ltsm_loss.png" alt="Loss Trends for LSTM" width="500">
-        <p style="margin: 0 auto;">(a) Loss Trends for LSTM</p>
+        <img src="images/LSTM.png" alt="Loss Trends for LSTM" width="500">
+        <p style="margin: 0 auto;">(a) Loss and Accuracy Trends for LSTM</p>
     </div>
     <div style="width:100%; text-align:center;">
-        <img src="images/lstm_accuracy.png" alt="Accuracy Trends for LSTM" width="500">
-        <p style="margin: 0 auto;">(b) Accuracy Trends for LSTM</p>
-    </div>
-  <div style="width:100%; text-align:center;">
         <img src="images/F1.png" alt="F1 Trends for BERT" width="500">
         <p style="margin: 0 auto;">(b) F1 Trends for BERT</p>
     </div>
