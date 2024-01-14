@@ -55,5 +55,7 @@ Note: The BERT model uses the DistilBERT architecture with the `'distilbert-base
 
 ## Results
 
+![F1](https://github.com/nadiarvi/Sentiment-Analysis-using-RNN-and-LSTM/assets/114945630/8a6248e7-daee-4809-88ac-1fc67559dcc1)
+
 The LSTM model achieved a validation accuracy of 81.84%, while the BERT model demonstrated a F1 score of 90.05% on sentiment analysis.
 
