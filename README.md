@@ -65,5 +65,5 @@ Note: The BERT model uses the DistilBERT architecture with the `'distilbert-base
     </div>
 </div>
 
-The LSTM model achieved a validation accuracy of 81.84%, while the BERT model demonstrated a F1 score of 90.05% on sentiment analysis.
+The LSTM model achieved a validation accuracy of 85.94%, while the BERT model demonstrated a F1 score of 90.05% on sentiment analysis.
 
