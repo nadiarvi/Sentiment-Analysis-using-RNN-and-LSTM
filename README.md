@@ -49,10 +49,12 @@ from bert import set_hyperparameter_for_BERT, run_BERT
 
 args = set_hyperparameter_for_BERT()
 
+```
+
+Note: The BERT model uses the DistilBERT architecture with the `'distilbert-base-cased'` pre-trained model.
+
 ## Results
 
 The LSTM model achieved a validation accuracy of 81.84%, while the BERT model demonstrated a F1 score of 90.05% on sentiment analysis.
 run_BERT('distilbert-base-cased', args)
-```
 
-Note: The BERT model uses the DistilBERT architecture with the `'distilbert-base-cased'` pre-trained model.
