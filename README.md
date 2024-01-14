@@ -54,8 +54,20 @@ args = set_hyperparameter_for_BERT()
 Note: The BERT model uses the DistilBERT architecture with the `'distilbert-base-cased'` pre-trained model.
 
 ## Results
-
-![F1](https://github.com/nadiarvi/Sentiment-Analysis-using-RNN-and-LSTM/assets/114945630/8a6248e7-daee-4809-88ac-1fc67559dcc1)
+<div style="display:flex;">
+    <div style="width:100%; text-align:center;">
+        <img src="images/ltsm_loss.png" alt="Loss Trends for LSTM" width="500">
+        <p style="margin: 0 auto;">(a) Loss Trends for LSTM</p>
+    </div>
+    <div style="width:100%; text-align:center;">
+        <img src="images/lstm_accuracy.png" alt="Accuracy Trends for LSTM" width="500">
+        <p style="margin: 0 auto;">(b) Accuracy Trends for LSTM</p>
+    </div>
+  <div style="width:100%; text-align:center;">
+        <img src="images/F1.png" alt="F1 Trends for BERT" width="500">
+        <p style="margin: 0 auto;">(b) F1 Trends for BERT</p>
+    </div>
+</div>
 
 The LSTM model achieved a validation accuracy of 81.84%, while the BERT model demonstrated a F1 score of 90.05% on sentiment analysis.
 
